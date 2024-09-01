@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 1.12
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.6304735, g: 0.68373084, b: 0.8301887, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 4817ac21c7814924fbcb3d0269a45243, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3e1214bd27e685349a612e41618ab8c8, type: 2}
   m_HaloStrength: 0.415
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -96,7 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: f53a7c377d84d2b409482ac7a490c8b5,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 3041060f53f84a44ca35d064b5658362,
     type: 2}
 --- !u!196 &4
@@ -581,7 +582,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.352e-42, y: 6e-44, z: 3.6e-44, w: 7.675e-42}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -595,7 +596,7 @@ Transform:
   m_GameObject: {fileID: 268122036}
   serializedVersion: 2
   m_LocalRotation: {x: 0.46805912, y: -0.19561346, z: 0.1167273, w: 0.853833}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 1.75, y: 3.03, z: 0.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
